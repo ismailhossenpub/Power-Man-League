@@ -1,0 +1,12 @@
+.team-card{
+  border: 1px solid rgb(161, 151, 151);
+  padding: 10px;
+  box-shadow: 5px 5px 5px gainsboro;
+  border-radius: 10px;
+  background-color: rgb(173, 209, 120);
+}
+.team-card{
+  width: 350px;
+  height: 200px;
+  margin: 2%;
+}
