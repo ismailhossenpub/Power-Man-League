@@ -73,7 +73,7 @@ const LeagueDetail = () => {
           </div>
         </div>
         <div>
-          <p>{strDescriptionEN}</p> <br />
+          <p> <strong>Description : </strong>{strDescriptionEN}</p>
         </div>
       </div>
       <div>
