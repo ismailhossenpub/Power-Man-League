@@ -1,19 +1,19 @@
 import React from "react";
 import { Link, useHistory } from "react-router-dom";
-import "./Team.css";
+import "./League.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
-const Friend = (props) => {
-  const { idLeague, strLeague, strSport, strLeagueAlternate } = props.team;
+const League = (props) => {
+  const { idLeague, strLeague, strSport, strLeagueAlternate } = props.league;
 
   const history = useHistory();
-  const handleClick = (teamId) => {
-    history.push(`/team/${teamId}`);
+  const handleClick = (leagueId) => {
+    history.push(`/league/${leagueId}`);
   };
 
   return (
-    <div className="card col-md-3  team-card">
+    <div className="card col-md-3 league-card">
       <div className="card-body">
         <h5 className="card-title">{strLeague}</h5>
         <p className="card-text">Sports Type : {strSport}</p>
@@ -29,4 +29,4 @@ const Friend = (props) => {
   );
 };
 
-export default Friend;
+export default League;

@@ -1,7 +1,10 @@
 .main-container {
   background-color: rgb(106, 122, 82);
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+  text-align: center;
 }
-.banner {
+.banner-home {
   color: white;
   background-image: url(../../images/bg.jpg);
   height: 150px;
@@ -9,10 +12,10 @@
 .banner-content {
   padding-top: 50px;
 }
-.team {
+.league {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  margin: 5%;
+  margin: 3%;
 }
